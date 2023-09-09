@@ -11,7 +11,7 @@ int main(void)
     int n;
     srand(time(0));
     n = rand() - RAND_MAX / 2;
-    printf("%d", n "is" n);
+    printf("%d ", n "is" n);
     if (n > 5)
     {
         printf("and is greater than 5");
