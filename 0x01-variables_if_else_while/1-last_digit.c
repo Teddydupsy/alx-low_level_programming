@@ -14,7 +14,7 @@ int main(void)
     printf("%d is ", n);
     if (n > 5)
     {
-        printf("and is greater than 5")
+        printf("and is greater than 5");
     }
     else if (n == 0)
     {
