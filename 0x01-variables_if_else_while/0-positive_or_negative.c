@@ -9,15 +9,15 @@ int main(void)
 	printf("The number %d is ", n);
 	if (n > 0)
 	{
-		printf("positive");
+		printf("is positive");
 	}
 	else if (n == 0)
 	{
-		printf("zero");
+		printf("is zero");
 	}
 	else
 	{
-		printf("negative");
+		printf("is negative");
 	}
 		printf("\n");
 	return (0);
