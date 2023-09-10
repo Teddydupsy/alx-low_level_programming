@@ -11,6 +11,6 @@ int main(void)
 	{
 		putchar("%d", Numbers);
 	}
-	putchar('\n');
+	putchar("\n");
 	return (0);
 }
