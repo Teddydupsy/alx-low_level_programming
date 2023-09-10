@@ -13,7 +13,7 @@ int main(void)
 	}
 	for (alpaBET = 'A'; alphaBET <= 'Z' ; alphaBET++)
 	{
-		putchar(alphaBET '\n';)
+		putchar(alphaBET '\n';);
 	}
 	return (0);
 }
