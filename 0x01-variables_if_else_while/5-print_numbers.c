@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int Numbers;
-	
-	for (Numbers = '0'; Numbers < 10 ; Numbers++)
+	int Numbers = 0
+
+	for (Numbers = '0'; Numbers <= '10'; Numbers++)
 	{
 		putchar(Numbers);
 	}
