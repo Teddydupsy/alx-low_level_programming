@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - Print all single digits of base 10 
- * Return: Always 0
+ * main - All single digits-numbers
+ * Return: 0
  */
 int main(void)
 {
-	int Numbers;
+	int Sing_dig;
 
-	for (Numbers = 48; Numbers < 58; Numbers++)
+	for (Sing_dig = 48; Sing_dig < 58; Sing_dig++)
 	{
-		putchar(Numbers);
+		putchar(Sing_dig);
 	}
 	putchar('\n');
 	return (0);
