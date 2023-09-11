@@ -11,7 +11,7 @@ int main(void)
 	for (digit = 48; digit <= 57; digit ++)
 	{
 		putchar(digit);
-	if (x < 57)
+	if (digit < 57)
 	{
 		putchar(44);
 		putchar(32);
