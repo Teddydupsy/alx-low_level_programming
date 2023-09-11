@@ -6,12 +6,15 @@
  */
 int main(void)
 {
-	/*Declare a variables of type 'int'*/
-	char num;
-
-	for (num = 48; num <= 63; num++)
+	/*Declare two variables of type 'int'and 'char'*/
+	int num;
+	char alpha;
+	
+	for (num = 48; num < 58; num++)
 	{
-		putchar("%x", num)
+		putchar(num);
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
+		putchar(alpha);
 	}
 	putchar('\n');
 	return (0);
