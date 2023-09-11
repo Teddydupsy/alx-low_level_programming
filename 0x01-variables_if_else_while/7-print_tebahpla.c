@@ -8,8 +8,8 @@
 int main(void)
 {
 	char Rev_let;
-	
-	for (Rev_let = 'z'; Rev_let >= 'a'; Rev_let--)
+
+	for (Rev_let = 'z'; Rev_let >= 'a' Rev_let--)
 	{
 		putchar(Rev_let);
 	}
