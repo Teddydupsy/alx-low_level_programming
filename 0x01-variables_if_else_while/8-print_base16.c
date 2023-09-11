@@ -13,9 +13,7 @@ int main(void)
 	for (num = 48; num <= 58; num++)
 	{
 		putchar(num);
-	}
 	for (alpha = 'a'; alpha < 'g'; alpha++)
-	{
 		putchar(alpha);
 	}
 	putchar('\n');
