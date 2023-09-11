@@ -7,7 +7,7 @@
 int main(void)
 {
 	/*Declare a variables of type 'int'*/
-	int num;
+	char num;
 
 	for (num = 48; num <= 63; num++)
 	{
