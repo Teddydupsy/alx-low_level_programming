@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * main - Code entry point
  * Description: Print alphabets in lowercase with new line
