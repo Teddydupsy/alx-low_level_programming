@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Print combinations of two different numbers
- * Deecription: The combinations should be separated by comma followed by a space
+ * Descript: The coombo should be separated by comma followed by a space
  * Numbers should be printed in ascending order using 'putchar'
  * Do not use a variable of type 'char'
  * Return: 0
@@ -17,7 +17,7 @@ int main(void)
 			putchar(num1);
 			putchar(num2);
 
-			if (num1 == 9 && num2 == 9)
+			if (num1 < 8 && num2 < 9)
 				continue;
 
 			putchar(44);
