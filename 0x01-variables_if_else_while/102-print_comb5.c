@@ -14,10 +14,10 @@ int main(void)
 	{
 		for (num_2 = num_1 + 1; num_2 <= 99; num_2++)
 		{
-			putchar(num_1 + '0');
+			putchar((num_1 / 10) + '0');
 			putchar(num_1 + '0');
 			putchar(' ');
-			putchar(num_2 + '0');
+			putchar((num_2 / 10) + '0');
 			putchar(num_2 + '0');
 
 			if (num_1 == 98 && num_2 == 99)
