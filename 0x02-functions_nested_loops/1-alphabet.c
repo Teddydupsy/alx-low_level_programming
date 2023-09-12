@@ -8,12 +8,12 @@
  * void print_alphabet(void);
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet (char);
-	for (print_alphabet = 'a'; print_alphabet <= 'z'; print_alphabet++)
+	char alpha;
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar(print_alphabet);
+		_putchar(alpha);
 	}
 	_putchar('\n');
 	return (0);
