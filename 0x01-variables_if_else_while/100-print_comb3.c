@@ -14,13 +14,14 @@ int main(void)
 	{
 		for (num2 = 48; num2 < 57; num2++)
 		{
-			putchar(num1);
-			putchar(num2);
+			putchar(num1 + '0');
+			putchar(num2 + '0');
 
 			if (num1 < 8 || num2 < 9)
-
+			{
 			putchar(44);
 			putchar(32);
+			}
 		}
 	}
 	putchar('\n');
