@@ -8,7 +8,7 @@ int print_last_digit(int num)
 {
 	int last;
 
-	if (num == 48)
+	if (num < 48)
 	{
 		num = -num;
 
@@ -18,7 +18,7 @@ int print_last_digit(int num)
 		{
 			last = -last;
 		}
-		_putchar(last);
+		_putchar(last + '0');
 	}
 	return (last);
 }
