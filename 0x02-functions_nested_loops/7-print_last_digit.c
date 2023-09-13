@@ -11,14 +11,14 @@ int print_last_digit(int num)
 	if (num < 48)
 	{
 		num = -num;
-		
+		_putchar(num);
 		last = num % 10;
 
 		if (last < 48)
 		{
 			last = -last;
 		}
-		_putchar(last);
+		_putchar(last +'0');
 	}
 		return (last);
 }
