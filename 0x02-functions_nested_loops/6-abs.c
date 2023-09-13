@@ -1,13 +1,11 @@
 #include "main.h"
 /**
  * _abs - Compute absolute value of an integer
- * Declare a variable of type int
+ * var: is the integer to check
  * Return: the absolute value of that integer
  */
-int _abs(int)
+int _abs(int var)
 {
-	int var;
-
 	if (var >= 0)
 	{
 		return (var);
