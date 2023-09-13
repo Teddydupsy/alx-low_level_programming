@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - Code to check lowercase letter
- * c is the case-study
+ * c: is the letter used as case-study
  * Return: 1 if c is lowercase, else 0
  */
 int _islower(int c)
