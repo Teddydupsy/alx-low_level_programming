@@ -11,7 +11,6 @@ int print_last_digit(int num)
 	if (num < 48)
 	{
 		num = -num;
-		_putchar(num);
 
 		last = num % 10;
 
