@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcat - Concatenate two strings
- * dest: working with this string
- * src: working with this string
+ * @dest: working with this string
+ * @src: working with this string
  * Return: Pointer to destination string
  */
 char *_strcat(char *dest, char *src)
