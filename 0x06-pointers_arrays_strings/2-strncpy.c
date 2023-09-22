@@ -12,7 +12,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (Num_bytes = 0; Num_bytes < n && src[Num_bytes] != '\0'; Num_bytes++)
 	{
-		dest[Numbytes] = src[Num_bytes];
+		dest[Num_bytes] = src[Num_bytes];
 	}
 	for (; Num_bytes < n; Num_bytes++)
 	{
