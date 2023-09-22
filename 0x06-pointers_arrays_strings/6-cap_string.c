@@ -14,11 +14,11 @@ char *cap_string(char *cap)
 		{
 			cap[0] = cap[0] - 32;
 		}
-		if (cap[letter] == ' ' || cap[letter] == '^' || cap[letter] == '\n'
+		if (cap[letter] == ' ' || cap[letter] == '\t' || cap[letter] == '\n'
 			|| cap[letter] == ',' || cap[letter] == ';' || cap[letter] == '.'
-			|| cap[letter] == '!' || cap[letter] == '?' || cap[letter] == '"'
-			|| cap[letter] == '(' || cap[letter] == ')' || cap[letter] == '{'
-			|| cap[letter] == '}')
+			|| cap[letter] == '_' || cap[letter] == '?' || cap[letter] == '!'
+			|| cap[letter] == '"' || cap[letter] == '(' || cap[letter] == ')'
+			|| cap[letter] == '{' || cap[letter] == '}')
 		{
 			if (cap[letter + 1] >= 97 && cap[letter + 1] <= 122)
 			{
