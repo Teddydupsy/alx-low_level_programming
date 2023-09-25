@@ -1,1 +1,1 @@
-Starting C programming
+Project variables and conditional statements
