@@ -9,6 +9,7 @@ int _atoi(char *s)
 {
 	int a, b, c, count, d, num;
 
+	a = 0;
 	b = 0;
 	c = 0;
 	count = 0;
@@ -18,7 +19,7 @@ int _atoi(char *s)
 	{
 		count++;
 	}
-	for (a = 0; a < count && d == 0; a++)
+	while (a < count && d == 0)
 	{
 		if (s[a] == '-')
 			++b;
@@ -34,6 +35,7 @@ int _atoi(char *s)
 				break;
 			d = 0;
 		}
+		a++;
 	}
 	if (d == 0)
 		return (0);
@@ -50,7 +52,7 @@ int main(int argc, char *argv[])
 {
 	int got, digit1, digit2;
 
-	if (argc == 1 || argc == 2)
+	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
