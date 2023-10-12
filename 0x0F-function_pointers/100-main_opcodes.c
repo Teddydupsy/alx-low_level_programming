@@ -24,14 +24,16 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 	rad = (char *)main;
-	for (gra =0; gra < size; gra++)
+	gra = 0;
+	while (gra < size)
 	{
 		if (gra == size - 1)
 		{
 			printf("%02hhx\n", rad[gra]);
 			break;
 		}
-		printf("%02hhx", rad[gra]);
+		printf("%02hhx ", rad[gra]);
+		gra++;
 	}
 	return (0);
 }
