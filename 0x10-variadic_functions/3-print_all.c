@@ -30,7 +30,7 @@ void print_all(const char * const format, ...)
 					break;
 				case 's':
 					word = va_arg(fig, char *);
-					if (*word)
+					if (!word)
 						word = "(nil)";
 					printf("%s%s", spa, word);
 					break;
